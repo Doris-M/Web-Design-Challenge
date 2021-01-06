@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Humidity Page</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html" style="color:black">Latitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+        
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"  style="color:rgb(0, 255, 106)">Plots  <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="temperature.html">Max.Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="visualization.html"  style="color:black">Comparisons</a></li>
+          <li><a href="data.html"  style="color:black">Data</a></li>
+        </ul>
+      
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+  <div class="row">
+   <div class="col-md-1"></div>  
+    <div class="col-md-4" style="background-color:white;">
+      <h1>Humidity</h1>
+      <hr class="light">
+        <img src="./Resources/assets/images/Fig2.png"  width="400" height="350">
+        <p> There is not a strong correlation between latitude and humidity. In diferent latitudes exists variety of humidity percentages as we can see in the visualization. </p>
+    </div> 
+    
+    <div class="col-sm-12 col-md-5">
+      <div class="box">
+        <div class="header">
+          <h1 class="text">Visualizations</h1>
+          <hr class="light">
+        </div>
+        <div class="content-fluid">
+          <div>
+            <div class="rowBox">
+              <div class="col-md-6">
+                <a href="temperature.html">
+                  <img  id="main_fig" src="./Resources/assets/images/Fig1.png"  style="width:250px;height:250px;float:left">
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="humidity.html">
+                  <img  id="main_fig" src="./Resources/assets/images/Fig2.png"  style="width:250px;height:250px;float:left">
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="cloudiness.html">
+                  <img  id="main_fig" src="./Resources/assets/images/Fig3.png"  style="width:250px;height:250px;float:left">
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="windspeed.html">
+                  <img  id="main_fig" src="./Resources/assets/images/Fig4.png"  style="width:250px;height:250px;float:left">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </div> 
+</body>
+</html>

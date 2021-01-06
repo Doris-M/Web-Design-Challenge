@@ -1,0 +1,192 @@
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1b2;
+  font-size: 20px
+}
+
+h1 {
+  font-size: 30px;
+  color:#08bba9
+}
+h2 {
+  font-size: 30px;
+  color:#08bba9
+}
+
+h3 {
+  font-size: 12px;
+  }
+
+h4 {
+    color:#08bba9;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+   background: #04756a;
+   padding: 8px
+}
+
+
+.col-md-4 {
+  
+  margin-top:50px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:40px;
+  align-content: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.col-sm-2{
+  background: white;
+  margin-top:50px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:40px;
+  align-content: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-sm-12{
+  background: white;
+  margin-top:50px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:40px;
+  align-content: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.rowVisualization{
+  
+  align-content: center;
+
+}
+.comparison{
+  margin-top:50px;
+  margin-left:200px;
+  margin-right:200px;
+  margin-bottom:40px;
+  align-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*Media*/
+@media (max-width: 992px) {
+  body {
+    background: white;
+
+  }
+  
+  .dropdown-menu{
+      font-size: 15px;
+  }
+  
+  .navbar {
+    
+      background-color: #52a1ce;
+     
+    }
+  
+    h1{
+      padding: 8px;
+      font-size: 25px;
+    }
+    h2{
+      padding: 6px;
+      font-size: 16px;
+    }
+  
+    p{
+      padding: 6px;
+      margin-top: 6px;
+      font-size: 14px; 
+     }
+
+     table{
+      padding: 4px;
+      margin-top: 4px;
+      font-size: 10px; 
+   
+    }
+
+  .navbar-brand{
+    color: black;
+  }
+ 
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+    background: white;
+
+  }
+  
+      .dropdown-menu{
+        font-size: 10px;
+    }
+    
+    
+    .navbar {
+        background-color: #52a1ce;
+        
+      }
+    
+      h1{
+        padding: 6px;
+        font-size: 20px;
+      }
+      h2{
+        padding: 6px;
+        font-size: 14px;
+      }
+    
+      p{
+        padding: 4px;
+        margin-top: 4px;
+        font-size: 12px; 
+       }
+    table{
+      padding: 4px;
+      margin-top: 4px;
+      font-size: 8px; 
+   
+    }
+
+    .box{ padding:8px}
+
+    
+}
+@media (max-width: 576px) {
+  body {
+    background: white;}
+
+
+
+  table{
+    padding: 4px;
+    margin-top: 4px;
+    font-size: 6px; 
+ 
+  }
+}
+
+.navbar-brand {
+  text-align: left;
+  color: rgb(12, 14, 14);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+
+.caret{color:black;}
+
